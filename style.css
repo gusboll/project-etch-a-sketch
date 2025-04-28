@@ -7,10 +7,11 @@ body{
 .header {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     margin-top: 20px;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 .container{
     width: 400px;
@@ -45,4 +46,17 @@ p {
 a {
     text-decoration: none;
     color: black;
+}
+
+.buttons {
+    margin-bottom: 18px;
+    display: flex;
+    padding: 0px;
+    gap: 15px;
+}
+
+.btn, .btn1, .btn2{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
 }
